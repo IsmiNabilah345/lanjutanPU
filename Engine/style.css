@@ -12,5 +12,24 @@
 }
 
 .card-section {
-    margin-top: 400px;
+    margin-top: 25rem;
+    height: 1000px;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.nav-item,
+.lgn {
+    color: #508D4E;
+}
+
+footer {
+    height: 400px;
+}
+
+footer,
+.container {
+    margin-top: 5rem;
 }
