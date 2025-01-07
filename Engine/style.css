@@ -5,15 +5,14 @@
 }
 
 .carousel {
-    width: 43%;
-    height: 200px;
+    max-width: 75%;
     object-fit: cover;
     margin: 0 auto;
 }
 
 .card-section {
-    margin-top: 25rem;
-    height: 1000px;
+    margin-top: 15rem;
+    height: 1500px;
 }
 
 .nav-item {
@@ -32,4 +31,8 @@ footer {
 footer,
 .container {
     margin-top: 5rem;
+}
+
+#tengah {
+    max-width: 30%;
 }
