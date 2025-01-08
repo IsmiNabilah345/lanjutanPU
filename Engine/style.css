@@ -1,3 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 .logo {
     width: 50px;
     height: auto;
@@ -6,8 +25,43 @@
 
 .carousel {
     max-width: 75%;
-    object-fit: cover;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 400px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
 }
 
 .card-section {
@@ -15,8 +69,38 @@
     height: 1500px;
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
 .nav-item {
     font-weight: 500;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover  {
+    background-color: #508D4E;
+    color: white;
+    border-radius: 5px;
 }
 
 .nav-item,
@@ -25,7 +109,24 @@
 }
 
 footer {
-    height: 400px;
+    height: auto;
+    padding: 40px 0;
+    background-color: #343a40;
+    color: white;
+}
+
+footer h6 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer img {
+    margin: 10px 0;
+    transition: opacity 0.3s ease;
+}
+
+footer img:hover {
+    opacity: 0.8;
 }
 
 footer,
@@ -35,4 +136,53 @@ footer,
 
 #tengah {
     max-width: 30%;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 200x;
+        max-width: 90%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 25px;
+        height: 25px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-indicators {
+        bottom: 5px;
+    }
+
+    .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+    }
+
+    .card-section {
+        margin-top: 10rem;
+        height: auto;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: 20px;
+    }
 }
