@@ -1,0 +1,137 @@
+/* logo */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 35px;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #4caf50 !important;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover  {
+    background-color: #508D4E;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-item,
+.lgn {
+    color: #508D4E;
+}
+
+/* Maps */
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Addres */
+.address {
+    text-align: center;
+    color: darkgreen;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* Form contact*/
+.form-contact { 
+    text-align: center;
+    color: #333;
+    font-size: large;
+}
+
+/* Form Control */
+.form-control {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+}   
+
+.form-control:hover {
+    border-color: #006241;
+}
+
+.form-control:focus {
+    border-color: #004d33;
+    box-shadow: 0 0 8px rgba(0, 98, 65, 0.5);
+}
+
+/* Button */
+.btn-primary {
+    background-color: #006241;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease,
+    transform 0.3s ease, box-shadow 0.3 s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d33;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Card */
+.card {
+    width: 520px;
+    height: auto;
+}
+
+
+/* Footer */
+footer {
+    height: auto;
+    padding: 40px 0;
+    background-color: #343a40;
+    color: white;
+}
+
+footer h6 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer img {
+    margin: 10px 0;
+    transition: opacity 0.3s ease;
+}
+
+footer img:hover {
+    opacity: 0.8;
+}
+
+footer,
+.container {
+    margin-top: 5rem;
+}
