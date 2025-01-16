@@ -123,6 +123,7 @@ iframe {
 .img-fluid {
     max-width: 100%;
     min-width: 20%;
+    height: 580px;
 }
 
 /* Footer */
@@ -150,4 +151,8 @@ footer img:hover {
 footer,
 .container {
     margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+
 }
