@@ -61,9 +61,13 @@ body {
     margin: 0 5px;
 }
 
+.card-img-g {
+    width: 200px;
+    height: 150px;
+}
 .card-section {
     margin-top: 15rem;
-    height: 1400px;
+    height: 1200px;
 }
 
 .card {
